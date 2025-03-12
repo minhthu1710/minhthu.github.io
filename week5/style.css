@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0; 
+    background-color: #f4f4f4;
+    color: #060708;
+}
+
+header {
+    background: #3d3a3c;
+    color: #f3f2f2;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.my-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.my-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+iframe {
+    width: 100%;  /* Video sẽ tự động co giãn theo chiều rộng của phần tử chứa nó */
+    max-width: 560px; /* Giữ kích thước tối đa để không bị vỡ khung */
+    height: 315px; /* Đảm bảo tỷ lệ video đúng */
+    display: block; /* Đảm bảo video không bị lỗi căn chỉnh */
+    margin: 10px auto; /* Căn giữa video */
+}
